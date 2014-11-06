@@ -1,0 +1,96 @@
+
+body {
+
+    background:#ccc url(file:///home/aswin/Desktop/10706314_815514405165998_1640168904_n.jpg)
+    repeat fixed;
+    margin: 5px;
+    font-family: verdana, sans-serif;
+}
+
+div#content {
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+    background-color: rgba(250, 250, 250, .65);
+    border: 1px solid #ccc;
+}
+
+h1, h2{
+    color: #960;
+    margin: 0;
+}
+
+p {
+    margin: 0 0 0.75em 0;
+    line-height: 1.5em;
+}
+.bordertest{
+    border:3px solid #999;
+    padding:3px;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    box-shadow: 5px 5px 10px #999;
+}
+a{
+    color:red;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color:purple;
+}
+a:active{
+    color:red;
+}
+li{
+    line-height: 1.5em;
+}
+a{ 
+    text-decoration: none;
+    color: #006;
+    padding:0 3px;
+}
+ul#linkDemo{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+#linkDemo a{
+ display:block;
+ float:left;
+ width:250px;
+ height:25px;
+ background: url(nav_rollover.jpg)  no repeat left bottom;
+ color:red;
+ font-weight:bold;
+ padding-left: 25px ;
+ text-decoration: none;
+}
+p.clear{
+    clear:both;
+    margin:0;
+    padding:0;
+}
+#linkDemo a:hover {
+    background-position: left top;
+    background-color: white;
+    color:purple;
+}
+
+.section{
+
+ -moz-column-count:2;
+ -moz-column-gap:16px;
+
+}
+
+
